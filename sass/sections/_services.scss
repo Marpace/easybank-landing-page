@@ -9,6 +9,7 @@
         margin-bottom: 30px;
         @include responsive($desktop) {
             text-align: left;
+            font-size: 40px;
         }
     }
     p {
