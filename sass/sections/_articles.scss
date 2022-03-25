@@ -2,6 +2,11 @@
     padding: 100px 6%;
     @include responsive($desktop){
         padding: 100px 10%
+            
+        h1 {
+            text-align: left;
+            font-size: 40px
+        }
     }
     
     &__container {
